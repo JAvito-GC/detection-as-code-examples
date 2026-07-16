@@ -17,11 +17,13 @@ detection-as-code-examples/
 │       ├── console_login_without_mfa.py         # Console login without MFA
 │       ├── s3_bucket_made_public.py             # S3 bucket exposed to public
 │       ├── guardduty_high_severity.py           # GuardDuty high-severity enrichment
-│       └── root_account_usage.py                # Root account API activity
+│       ├── root_account_usage.py                # Root account API activity
+│       └── cloudtrail_logging_disabled.py       # CloudTrail tampering (defense evasion)
 ├── tests/
 │   ├── conftest.py                         # Pytest fixtures and event builders
 │   ├── test_iam_role_creation.py
 │   ├── test_console_login_mfa.py
+│   ├── test_cloudtrail_logging_disabled.py
 │   └── test_helpers.py
 └── .github/
     └── workflows/
