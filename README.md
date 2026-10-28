@@ -51,7 +51,7 @@ def alert_context(event: dict) -> dict:
     """Return enrichment data attached to the alert."""
 ```
 
-This mirrors platforms like Panther, where each detection is a Python module with a predictable contract that can be tested, versioned, and reviewed like any other code.
+This mirrors detection-as-code platforms where each detection is a Python module with a predictable contract that can be tested, versioned, and reviewed like any other code.
 
 ## Quick Start
 
